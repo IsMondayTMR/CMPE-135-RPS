@@ -3,8 +3,9 @@
 
 class Player
 {
-private:
+protected:
 	int choice;
+
 public:
 	int getChoice();
 	// virtual void pick();

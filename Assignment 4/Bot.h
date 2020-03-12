@@ -7,10 +7,8 @@ using namespace std;
 
 class Bot : public Player
 {
-private:
-	int choice;
 public:
-	void pick();
+	virtual void pick();
 };
 
 #endif

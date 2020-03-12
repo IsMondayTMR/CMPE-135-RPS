@@ -13,5 +13,5 @@ int main()
 	game.play();
 	cout << "Enter anything to close game" << endl;
 	cin >> endgame;
-    return 0;
+	return 0;
 }
