@@ -3,6 +3,7 @@
 
 #include "Human.h"
 #include "Bot.h"
+#include "BotFactory.h"
 #include <iostream>
 using namespace std;
 
@@ -11,7 +12,7 @@ class Game
 private:
 	int round;
 	Human human;
-	Bot bot;
+	Bot *bot;
 public:
 	void play();
 	int result(int humanChoice, int botChoice);

@@ -2,13 +2,19 @@
 
 void Game::play()
 {
+	char algo_type;
+	cout <<"Choose BOT algorithm:"<<endl;
+	cout<<"Type 'R' for random OR 'S' for smart"<<endl;
+	cin>> algo_type;
 	round = 20;
+
+	bot = BotFactory::pickAlgo(algo_type);
 	for (int i = 0; i < round; i++)
 	{
 		cout << "Round " << i + 1 << endl;
 		human.pick();
-		bot.pick();
-		printResult(result(human.getChoice(), bot.getChoice()));
+		bot->pick();
+		printResult(result(human.getChoice(), bot->getChoice()));
 	}
 	cout << "Game Over!" << endl;
 }

@@ -1,4 +1,6 @@
 #include "BotFactory.h"
+#include "RandomChoice.h"
+#include "SmartChoice.h"
 
 Bot *BotFactory::pickAlgo(char choice)
 {
