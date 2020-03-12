@@ -1,3 +1,5 @@
+#include "RandomChoice.h"
+
 void RandomChoice::pick()
 {
 	choice = rand() % 3;

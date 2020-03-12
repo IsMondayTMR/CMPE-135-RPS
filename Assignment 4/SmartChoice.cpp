@@ -1,3 +1,5 @@
+#include "SmartChoice.h"
+
 void SmartChoice::pick()
 {
     choice = 1;

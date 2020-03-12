@@ -1,3 +1,6 @@
+#ifndef RANDOMCHOICE_H
+#define RANDOMCHOICE_H
+
 #include <iostream>
 #include "Bot.h"
 using namespace std;

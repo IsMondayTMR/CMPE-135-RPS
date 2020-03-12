@@ -1,11 +1,14 @@
+#ifndef BOTFACTORY_H
+#define BOTFACTORY_H
+
 #include <iostream>
 #include "Bot.h"
 using namespace std;
 
-class BotFacory : public Bot
+class BotFactory : public Bot
 {
 public:
-    Bot pick();
+    static Bot *pickAlgo(char choice);
 };
 
 #endif

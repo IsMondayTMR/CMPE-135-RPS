@@ -1,3 +1,6 @@
+#ifndef SMARTCHOICE_H
+#define SMARTCHOICE_H
+
 #include <iostream>
 #include "Bot.h"
 using namespace std;

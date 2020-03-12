@@ -1,13 +1,14 @@
-Bot BotFacory::pick(string choice)
+#include "BotFactory.h"
+
+Bot *BotFactory::pickAlgo(char choice)
 {
     switch (choice)
     {
-    case R:
+    case 'R':
         return new RandomChoice();
-    case S:
+    case 'S':
         return new SmartChoice();
     default:
-        break;
+        return NULL;
     }
-    return NULL;
 }
