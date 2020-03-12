@@ -1,15 +1,16 @@
 #ifndef HUMAN_H
 #define HUMAN_H
 
-#include "Player.h"
 #include <iostream>
 using namespace std;
 
-class Human : public Player
+class Human
 {
-private:
+protected:
 	int choice;
 public:
+	int getChoice();
+	void setChoice(int value);
 	void pick();
 };
 

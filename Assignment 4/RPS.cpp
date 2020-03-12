@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdlib.h>
-#include "Player.h"
 #include "Human.h"
 #include "Bot.h"
 #include "Game.h"
