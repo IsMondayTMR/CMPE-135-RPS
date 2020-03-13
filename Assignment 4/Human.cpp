@@ -14,6 +14,19 @@ void Human::pick()
 {
 	cout << "1 = Paper, 2 = Scissors, 3 = Rock: ";
 	cin >> choice;
-	choice -= 1;
-	setChoice(choice);
+	switch (choice)
+	{
+	case 1: 
+		setChoice(0);
+		break;
+	case 2:
+		setChoice(1);
+		break;
+	case 3:
+		setChoice(2);
+		break;
+	default:
+		pick();
+		break;
+	}
 }
