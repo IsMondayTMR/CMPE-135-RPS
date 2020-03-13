@@ -117,8 +117,10 @@
   <ItemGroup>
     <ClCompile Include="Bot.cpp" />
     <ClCompile Include="BotFactory.cpp" />
+    <ClCompile Include="Database.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Human.cpp" />
+    <ClCompile Include="ML.cpp" />
     <ClCompile Include="RandomChoice.cpp" />
     <ClCompile Include="RPS.cpp" />
     <ClCompile Include="SmartChoice.cpp" />
@@ -126,7 +128,9 @@
   <ItemGroup>
     <ClInclude Include="Bot.h" />
     <ClInclude Include="BotFactory.h" />
+    <ClInclude Include="Database.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="ML.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="RandomChoice.h" />
     <ClInclude Include="SmartChoice.h" />
