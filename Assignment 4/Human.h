@@ -7,11 +7,11 @@ using namespace std;
 class Human
 {
 protected:
-	int choice;
+    int choice;
 public:
-	int getChoice();
-	void setChoice(int value);
-	void pick();
+    int getChoice();
+    void setChoice(int value);
+    void playerPick();
 };
 
 #endif

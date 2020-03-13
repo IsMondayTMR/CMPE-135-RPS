@@ -7,12 +7,12 @@ using namespace std;
 class Bot
 {
 protected:
-	int choice;
+    int choice;
 
 public:
-	int getChoice();
-	void setChoice(int value);
-	virtual void pick();
+    int getChoice();
+    void setChoice(int value);
+    virtual void pick(int );
 };
 
 #endif
