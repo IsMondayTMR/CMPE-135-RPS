@@ -11,7 +11,7 @@ private:
 	int previousChoice[5] = { 3, 3, 3, 3, 3 };
 public:
 	void recordChoice(int choice);
-	string sendSequence();
+	int sendSequence();
 };
 
 #endif
